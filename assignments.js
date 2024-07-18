@@ -45,7 +45,6 @@ let populationOfFinland = 6000000;
 console.log(population > populationOfFinland); //Does my country have more people than Finland? True
 
 const averagePopulation = 33000000;
-// new comment
 
 console.log(population < averagePopulation); //Does my country have less people than average? True
 
