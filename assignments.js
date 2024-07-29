@@ -1,8 +1,9 @@
 //1. Values and variables
 
+/*
 let country = "Hungary";
 let continent = "Europe";
-let population = 9600000;
+let population = 9_600_000;
 
 console.log(country);
 console.log(continent);
@@ -40,7 +41,7 @@ console.log(population / 2); //4800000 people
 population++; //Increasing the population by 1
 console.log(population);
 
-let populationOfFinland = 6000000;
+let populationOfFinland = 6_000_000;
 
 console.log(population > populationOfFinland); //Does my country have more people than Finland? True
 
@@ -49,8 +50,12 @@ const averagePopulation = 33000000;
 console.log(population < averagePopulation); //Does my country have less people than average? True
 
 const description1 = country + " is in " + continent + ", and its " + population + " people speak " + languageOfHungary;
+const description2 = `${country} IS in ${continent}, and its ${population} people speak ${languageOfHungary}`
 
-console.log(description1);
+console.log(description2);
+*/
+
+
 
 
 
