@@ -3,7 +3,7 @@
 /*
 let country = "Hungary";
 let continent = "Europe";
-let population = 9_600_000;
+let population = 9.6;
 
 console.log(country);
 console.log(continent);
@@ -41,11 +41,11 @@ console.log(population / 2); //4800000 people
 population++; //Increasing the population by 1
 console.log(population);
 
-let populationOfFinland = 6_000_000;
+let populationOfFinland = 6;
 
 console.log(population > populationOfFinland); //Does my country have more people than Finland? True
 
-const averagePopulation = 33000000;
+let averagePopulation = 33;
 
 console.log(population < averagePopulation); //Does my country have less people than average? True
 
@@ -53,7 +53,35 @@ const description1 = country + " is in " + continent + ", and its " + population
 const description2 = `${country} IS in ${continent}, and its ${population} people speak ${languageOfHungary}`
 
 console.log(description2);
+
+// 5. Strings and template literals
+
+const descriptionNew = `${country} is in ${continent}, and its ${population} people speak ${languageOfHungary}`;
+
+console.log(descriptionNew);
+
+
+// 6. Taking decisions: If/else statements
+
+const averagePopulationOfHungary = (33 - population);
+console.log(averagePopulationOfHungary);
+if (population < 33) {
+    console.log(`Hungary’s population is ${averagePopulationOfHungary} below average`)
+} else {
+    console.log(`Hungary’s population is ${averagePopulationOfHungary} above average`)
+};
 */
+
+// 7. Type Conversion and Coercion
+
+console.log('9' - '5'); // -> 4
+console.log('19' - '13' + '17'); // -> 617
+console.log('19' - '13' + 17); // -> 23
+console.log('123' < 57); // -> false
+console.log(5 + 6 + '4' + 9 - 4 - 2); // -> 1143
+
+
+
 
 
 
