@@ -203,6 +203,33 @@ if (height) {
     console.log("Height is undefined");
 }
 */
+/*
+const age = 18;
+if (age === 18) console.log("You just became an adult (strict)");
+
+if (age == 18) console.log("You just became an adult (loose)");
+
+const favourite = Number(prompt("What’s your favourite number"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 8) { // "8" == 8
+    console.log("Cool! 8 is an amazing number.")
+} else if (favourite === 7) {
+    console.log("7 is also a cool number");
+} else if (favourite === 11) {
+    console.log("11 is not a cool number")
+} else {
+    console.log("Number is not 23 or 7 or 11")
+}
+
+if (favourite !== 8) console.log("Why not 8?");
+*/
+
+
+
+
+
 
 
 
