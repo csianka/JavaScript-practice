@@ -93,6 +93,26 @@ if (numNeighbours === 1) {
 }
 */
 
+/**
+ * Wolf changes start
+ */
+/*
+const userInput = Number(prompt('Guess the number'));
+
+const randomNumber = Math.floor(Math.random() * 4) + 1
+
+if (userInput === randomNumber) {
+    alert('YOU GUESSED IT')
+}
+else {
+    console.log('Your number', userInput)
+    console.log('Random number', randomNumber)
+}
+
+/**
+ * Wolf changes end
+ */
+
 
 
 

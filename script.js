@@ -225,6 +225,37 @@ if (favourite === 8) { // "8" == 8
 
 if (favourite !== 8) console.log("Why not 8?");
 */
+/*
+const hasDriversLicense = true; // variable A
+const hasGoodVision = true; // variable B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+// Use these variables to make a decision
+
+/*
+if (hasDriversLicense && hasGoodVision) {
+    console.log("Sarah is able to drive");
+} else {
+    console.log("Someone else should drive...");
+}
+
+
+const isTired = false; // variable C
+console.log(hasDriversLicense || hasGoodVision || isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+    console.log("Sarah is able to drive");
+} else {
+    console.log("Someone else should drive...");
+}
+*/
+
+
+
+
 
 
 
