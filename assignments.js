@@ -1,8 +1,9 @@
 //1. Values and variables
 
+/*
 let country = "Hungary";
 let continent = "Europe";
-let population = 9600000;
+let population = 9.6;
 
 console.log(country);
 console.log(continent);
@@ -40,18 +41,106 @@ console.log(population / 2); //4800000 people
 population++; //Increasing the population by 1
 console.log(population);
 
-let populationOfFinland = 6000000;
+let populationOfFinland = 6;
 
 console.log(population > populationOfFinland); //Does my country have more people than Finland? True
 
-const averagePopulation = 33000000;
-// new comment
+let averagePopulation = 33;
 
 console.log(population < averagePopulation); //Does my country have less people than average? True
 
 const description1 = country + " is in " + continent + ", and its " + population + " people speak " + languageOfHungary;
+const description2 = `${country} IS in ${continent}, and its ${population} people speak ${languageOfHungary}`
 
-console.log(description1);
+console.log(description2);
+
+// 5. Strings and template literals
+
+const descriptionNew = `${country} is in ${continent}, and its ${population} people speak ${languageOfHungary}`;
+
+console.log(descriptionNew);
+
+
+// 6. Taking decisions: If/else statements
+
+const averagePopulationOfHungary = (33 - population);
+console.log(averagePopulationOfHungary);
+if (population < 33) {
+    console.log(`Hungary’s population is ${averagePopulationOfHungary} below average`)
+} else {
+    console.log(`Hungary’s population is ${averagePopulationOfHungary} above average`)
+};
+*/
+
+// 7. Type Conversion and Coercion
+/*
+console.log('9' - '5'); // -> 4
+console.log('19' - '13' + '17'); // -> 617
+console.log('19' - '13' + 17); // -> 23
+console.log('123' < 57); // -> false
+console.log(5 + 6 + '4' + 9 - 4 - 2); // -> 1143
+*/
+// 8. Equality Operators: == vs. ===
+/*
+const numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
+console.log(numNeighbours);
+if (numNeighbours === 1) {
+    console.log("Only 1 border");
+} else if (numNeighbours > 1) {
+    console.log("More than 1 border");
+} else {
+    console.log("No borders");
+}
+*/
+
+/**
+ * Wolf changes start
+ */
+/*
+const userInput = Number(prompt('Guess the number'));
+
+const randomNumber = Math.floor(Math.random() * 4) + 1
+
+if (userInput === randomNumber) {
+    alert('YOU GUESSED IT')
+}
+else {
+    console.log('Your number', userInput)
+    console.log('Random number', randomNumber)
+}
+
+/**
+ * Wolf changes end
+ */
+
+//The switch Statement
+
+/*
+const language = "chinese"
+
+switch (language) {
+    case "chinese":
+    case "mandarin":
+        console.log("MOST number of native speakers!");
+        break;
+    case "spanish":
+        console.log("2nd place in number of nateive speakers");
+        break;
+    case "english":
+        console.log("3rd place");
+        break;
+    case "hindi":
+        console.log("Number 4");
+        break;
+    case "arabic":
+        console.log("5th most spoken language");
+        break;
+    default:
+        console.log("Great lanuage too.");
+}
+*/
+
+
 
 
 
